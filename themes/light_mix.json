@@ -118,12 +118,6 @@
 			}
 		},
 		{
-			"scope": "comment",
-			"settings": {
-				"foreground": "#707070"
-			}
-		},
-		{
 			"scope": "constant.language",
 			"settings": {
 				"foreground": "#7DA76F"
@@ -484,6 +478,7 @@
 			"scope": "comment",
 			"settings": {
 				"foreground": "#707070",
+				"fontStyle": "italic"
 			},
 		},
 		{
