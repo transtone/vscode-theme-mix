@@ -61,7 +61,6 @@
 		"editorSuggestWidget.highlightForeground": "#AED1FF",
 		"editorSuggestWidget.selectedBackground": "#18354C",
 		"editorWarning.foreground": "#7DA76F",
-		"editorWidget.background": "#202020",
 		"activityBarItem.settingsProfilesBackground": "#4d4d4d",
 		"editorSuggestWidget.background": "#F3F3F3",
 		"sideBarTitle.foreground": "#6F6F6F",
@@ -86,6 +85,8 @@
 		"breadcrumb.focusForeground": "#e8e8e8",
 		"terminal.background": "#ffffff",
 		"panel.background": "#f5f5f5",
+		"notifications.background": "#f3f3f3",
+		"notificationCenterHeader.background": "#e7e7e7",
 	},
 	"tokenColors": [
 		{
