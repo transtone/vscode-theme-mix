@@ -1,5 +1,5 @@
 {
-  "name": "theme-defaults",
+  "name": "theme-default-mixed",
   "displayName": "%displayName%",
   "description": "%description%",
   "categories": [
@@ -14,40 +14,16 @@
   "contributes": {
     "themes": [
       {
-        "id": "Default Dark+",
-        "label": "%darkPlusColorThemeLabel%",
+        "id": "Visual Studio Mix Dark",
+        "label": "%darkMixColorThemeLabel%",
         "uiTheme": "vs-dark",
-        "path": "./themes/dark_plus.json"
+        "path": "./themes/dark_mix.json"
       },
       {
-        "id": "Default Light+",
-        "label": "%lightPlusColorThemeLabel%",
+        "id": "Visual Studio Mix Light",
+        "label": "%lightMixColorThemeLabel%",
         "uiTheme": "vs",
-        "path": "./themes/light_plus.json"
-      },
-      {
-        "id": "Visual Studio Dark",
-        "label": "%darkColorThemeLabel%",
-        "uiTheme": "vs-dark",
-        "path": "./themes/dark_vs.json"
-      },
-      {
-        "id": "Visual Studio Light",
-        "label": "%lightColorThemeLabel%",
-        "uiTheme": "vs",
-        "path": "./themes/light_vs.json"
-      },
-      {
-        "id": "Default High Contrast",
-        "label": "%hcColorThemeLabel%",
-        "uiTheme": "hc-black",
-        "path": "./themes/hc_black.json"
-      },
-      {
-        "id": "Default High Contrast Light",
-        "label": "%lightHcColorThemeLabel%",
-        "uiTheme": "hc-light",
-        "path": "./themes/hc_light.json"
+        "path": "./themes/light_mix.json"
       }
     ],
     "iconThemes": [
@@ -60,6 +36,6 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/microsoft/vscode.git"
+    "url": "https://github.com/transtone/vscode-theme-mix"
   }
 }
