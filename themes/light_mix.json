@@ -2,6 +2,11 @@
 	"$schema": "vscode://schemas/color-theme",
 	"name": "Light-mix",
 	"colors": {
+		"activityBar.background": "#ececec",
+		"activityBar.activeBackground": "#ffffff",
+		"activityBar.foreground": "#c2ad8c",
+		"activityBar.inactiveForeground": "#aaaaaa",
+		"activityBar.activeBorder": "#ffffff",
 		"tab.activeBackground": "#ffffff",
 		"tab.activeForeground": "#000000",
 		"editor.findMatchBackground": "#00FF1A41",
