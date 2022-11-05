@@ -14,12 +14,6 @@
   "contributes": {
     "themes": [
       {
-        "id": "Visual Studio Mix Dark",
-        "label": "%darkMixColorThemeLabel%",
-        "uiTheme": "vs-dark",
-        "path": "./themes/dark_mix.json"
-      },
-      {
         "id": "Visual Studio Mix Light",
         "label": "%lightMixColorThemeLabel%",
         "uiTheme": "vs",

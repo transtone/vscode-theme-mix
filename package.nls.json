@@ -1,7 +1,6 @@
 {
 	"displayName": "Default Themes Mix",
-	"description": "The default Visual Studio light and dark themes",
-	"darkMixColorThemeLabel": "Dark mix",
+	"description": "The default Visual Studio light themes",
 	"lightMixColorThemeLabel": "Light mix",
 	"minimalIconThemeLabel": "Minimal (Visual Studio Code)"
 }
