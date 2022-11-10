@@ -417,7 +417,7 @@
       "name": "HTML Derivatives",
       "scope": "text.html.derivative",
       "settings": {
-        "foreground": "#BC9550",
+        "foreground": "#CCCCCC",
       },
     },
     {
