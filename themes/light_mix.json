@@ -118,7 +118,6 @@
     {
       "name": "Operators",
       "scope": [
-        "keyword.operator",
         "operator.annotation.type.keyword",
         "var.expr.primitive.annotation.type.keyword.meta",
       ],
@@ -220,10 +219,17 @@
       },
     },
     {
+      "name": "Function definition",
+      "scope": "entity.name.function",
+      "settings": {
+        "foreground": "#BC9550",
+      },
+    },
+    {
       "name": "Class name",
       "scope": "entity.name.class",
       "settings": {
-        "foreground": "#D38569",
+        "foreground": "#BC9550",
       },
     },
     {
@@ -265,17 +271,39 @@
       },
     },
     {
-      "name": "Function definition",
-      "scope": "entity.name.function",
+      "name": "Variable property",
+      "scope": "variable.other.property",
       "settings": {
         "foreground": "#D38569",
       },
     },
     {
       "name": "Variable",
-      "scope": "variable",
+      "scope": [
+        "meta.definition.variable",
+        "variable.other.readwrite"
+      ],
       "settings": {
         "foreground": "#819DC2",
+      },
+    },
+    {
+      "name": "Function definition",
+      "scope": [
+        "entity.name.function",
+        "support.function",
+      ],
+      "settings": {
+        "foreground": "#BC9550",
+      },
+    },
+    {
+      "scope": [
+        "keyword.operator.assignment",
+        "keyword.operator",
+      ],
+      "settings": {
+        "foreground": "#B98EB2",
       },
     },
     {
@@ -320,7 +348,7 @@
       "name": "Object Keys",
       "scope": "meta.object-literal.key.karyscript",
       "settings": {
-        "foreground": "#819DC2",
+        "foreground": "#D38569",
       },
     },
     {
@@ -869,7 +897,7 @@
       "name": "Storage Modifiers",
       "scope": "storage.modifier",
       "settings": {
-        "foreground": "#BC9550",
+        "foreground": "#B98EB2",
       },
     },
     {
@@ -969,7 +997,7 @@
       "name": "Assignment Operator",
       "scope": "keyword.operator.assignment",
       "settings": {
-        "foreground": "#BC9550",
+        "foreground": "#B98EB2",
       },
     },
     {
@@ -2911,7 +2939,7 @@
       "name": "Ohm Operators",
       "scope": "keyword.operator",
       "settings": {
-        "foreground": "#BC9550",
+        "foreground": "#B98EB2",
       },
     },
     {
