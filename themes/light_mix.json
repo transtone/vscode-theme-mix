@@ -25,7 +25,7 @@
     "editor.snippetTabstopHighlightBackground": "#6335A7",
     "editor.wordHighlightBackground": "#6C22FF44",
     "editor.wordHighlightStrongBackground": "#356EFF3B",
-    "editorBracketHighlight.foreground1": "#BC9550",
+    "editorBracketHighlight.foreground1": "#CCCCCC",
     "editorBracketHighlight.foreground2": "#D38569",
     "editorBracketHighlight.foreground3": "#B98EB2",
     "editorBracketHighlight.foreground4": "#7DA76F",
@@ -382,6 +382,22 @@
       "scope": "entity.other.attribute-name",
       "settings": {
         "foreground": "#B98EB2",
+      },
+    },
+    {
+      "name": "vue directive or bind",
+      "scope": "punctuation.attribute-shorthand",
+      "settings": {
+        "foreground": "#B98EB2",
+      },
+    },
+    {
+      "scope": [
+        "punctuation.separator.key-value.html",
+        "punctuation.definition.string",
+      ],
+      "settings": {
+        "foreground": "#7DA76F",
       },
     },
     {
@@ -2207,6 +2223,7 @@
     {
       "name": "braces",
       "scope": [
+        "meta.brace",
         "meta.function-call.php",
         "punctuation.section.array.end.php",
         "punctuation.section.array.begin.php",
