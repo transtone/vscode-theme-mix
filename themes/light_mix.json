@@ -27,11 +27,11 @@
     "editor.wordHighlightStrongBackground": "#356EFF3B",
     "editorBracketHighlight.foreground1": "#CCCCCC",
     "editorBracketHighlight.foreground2": "#D38569",
-    "editorBracketHighlight.foreground3": "#B98EB2",
-    "editorBracketHighlight.foreground4": "#7DA76F",
-    "editorBracketHighlight.foreground5": "#819DC2",
-    "editorBracketMatch.background": "#444444",
-    "editorBracketMatch.border": "#444444",
+    "editorBracketHighlight.foreground3": "#819DC2",
+    "editorBracketHighlight.foreground4": "#BC9550",
+    "editorBracketHighlight.foreground5": "#7DA76F",
+    "editorBracketMatch.background": "#ac1a90",
+    "editorBracketMatch.border": "#ac1a90",
     "editorCursor.foreground": "#16C6F7",
     "editorError.foreground": "#D38569",
     "editorGroup.border": "#282828",
@@ -2229,7 +2229,6 @@
     {
       "name": "braces",
       "scope": [
-        "meta.brace",
         "meta.function-call.php",
         "punctuation.section.array.end.php",
         "punctuation.section.array.begin.php",
@@ -3085,7 +3084,6 @@
       "scope": [
         "bracket.php",
         "keyword.operator.type.annotation.ts",
-        "meta.brace",
         "meta.brace.angle.ts",
         "meta.brace.round.dart",
         "meta.declaration.exports.haskell",
