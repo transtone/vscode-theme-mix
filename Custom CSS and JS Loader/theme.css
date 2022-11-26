@@ -25,6 +25,10 @@
   box-shadow: #1a1a1a 0 6px 6px -6px inset;
 }
 
+.monaco-scrollable-element > .shadow.top{
+  box-shadow: #1a1a1a33 0 6px 6px -6px inset;
+}
+
 .monaco-editor .contentWidgets .codicon.codicon-light-bulb {
   background-color: rgba(26, 26, 26, 0.7);
 }

@@ -53,9 +53,6 @@
     "editorOverviewRuler.modifiedForeground": "#819DC2",
     "editorOverviewRuler.wordHighlightForeground": "#793BF7",
     "editorOverviewRuler.wordHighlightStrongForeground": "#405CA1",
-    "scrollbarSlider.activeBackground": "#BA944F9B",
-    "scrollbarSlider.background": "#BA944F54",
-    "scrollbarSlider.hoverBackground": "#BA944FB7",
     "editorStickyScroll.background": "#101010",
     "editorStickyScrollHover.background": "#212121",
     "editorSuggestWidget.border": "#282828",
@@ -89,6 +86,13 @@
     "peekViewResult.background": "#F2F8FC",
     "peekView.border": "#0060c0",
     "peekViewResult.matchHighlightBackground": "#0091FF40",
+    // "scrollbarSlider.activeBackground": "#BA944F9B",
+    // "scrollbarSlider.background": "#BA944F54",
+    // "scrollbarSlider.hoverBackground": "#BA944FB7",
+    "scrollbar.shadow": "#000000",
+    "scrollbarSlider.background": "#79797966",
+    "scrollbarSlider.hoverBackground": "#646464B3",
+    "scrollbarSlider.activeBackground": "#BFBFBF66",
   },
   "tokenColors": [
     // kary dark
