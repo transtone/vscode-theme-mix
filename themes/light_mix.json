@@ -83,6 +83,12 @@
     "list.focusAndSelectionOutline": "#90C2F9",
     "terminal.inactiveSelectionBackground": "#E5EBF1",
     "minimap.background": "#1A1A1A",
+    "peekViewEditor.matchHighlightBackground": "#0091FF40",
+    "peekViewTitle.background": "#F2F8FC",
+    "peekViewEditor.background": "#272822",
+    "peekViewResult.background": "#F2F8FC",
+    "peekView.border": "#0060c0",
+    "peekViewResult.matchHighlightBackground": "#0091FF40",
   },
   "tokenColors": [
     // kary dark

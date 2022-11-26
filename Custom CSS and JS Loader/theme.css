@@ -1,7 +1,12 @@
 .editor-container .monaco-editor .scrollbar.vertical,
-#workbench\.parts\.editor .monaco-editor-background,
-#workbench\.parts\.editor .monaco-editor .margin {
+#workbench\.parts\.editor  .monaco-editor-background,
+#workbench\.parts\.editor  .monaco-editor .margin {
   background-color: #1a1a1a;
+}
+
+#workbench\.parts\.editor .zone-widget .monaco-editor-background,
+#workbench\.parts\.editor .zone-widget .monaco-editor .margin {
+  background-color: #272822;
 }
 
 .suggest-input-container .view-lines.monaco-mouse-cursor-text {
@@ -18,4 +23,8 @@
 
 .monaco-editor .scroll-decoration {
   box-shadow: #1a1a1a 0 6px 6px -6px inset;
+}
+
+.monaco-editor .contentWidgets .codicon.codicon-light-bulb {
+  background-color: rgba(26, 26, 26, 0.7);
 }
