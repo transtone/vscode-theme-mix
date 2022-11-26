@@ -1,0 +1,21 @@
+.editor-container .monaco-editor .scrollbar.vertical,
+#workbench\.parts\.editor .monaco-editor-background,
+#workbench\.parts\.editor .monaco-editor .margin {
+  background-color: #1a1a1a;
+}
+
+.suggest-input-container .view-lines.monaco-mouse-cursor-text {
+  background-color: #fff;
+}
+
+.monaco-editor .minimap-shadow-visible {
+  box-shadow: none;
+}
+
+.editor-container .monaco-editor .scrollbar.vertical.fade {
+  opacity: 1;
+}
+
+.monaco-editor .scroll-decoration {
+  box-shadow: #1a1a1a 0 6px 6px -6px inset;
+}
