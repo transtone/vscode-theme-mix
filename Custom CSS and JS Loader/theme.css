@@ -14,7 +14,7 @@
 /* 因为 "peekViewEditor.background" 设置值被上面的背景色所覆盖，所以要覆盖回来 */
 #workbench\.parts\.editor .zone-widget .monaco-editor-background,
 #workbench\.parts\.editor .zone-widget .monaco-editor .margin {
-  background-color: #272822;
+  background-color: #392620;
 }
 
 /* 搜索框背景 */
