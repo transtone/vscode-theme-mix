@@ -6,7 +6,7 @@
 }
 
 /* 全局前景为黑色，需要覆盖设置默认代码颜色，浮动窗前景色  */
-.mtk1,
+#workbench\.parts\.editor .monaco-editor .mtk1,
 .monaco-workbench .overflowingContentWidgets {
  color: #CCCCCC;
 }
