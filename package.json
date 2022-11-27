@@ -1,23 +1,21 @@
 {
-  "name": "theme-default-mixed",
-  "displayName": "%displayName%",
-  "description": "%description%",
+  "name": "kary-mix",
+  "displayName": "kary mix",
+  "description": "The default Visual Studio light themes mix with kary-dark",
+  "publisher": "wildgrid",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.73.0"
+  },
   "categories": [
     "Themes"
   ],
-  "version": "1.0.0",
-  "publisher": "vscode",
-  "license": "MIT",
-  "engines": {
-    "vscode": "*"
-  },
   "contributes": {
     "themes": [
       {
-        "id": "Visual Studio Mix Light",
-        "label": "%lightMixColorThemeLabel%",
+        "label": "kary-mix",
         "uiTheme": "vs",
-        "path": "./themes/light_mix.json"
+        "path": "./themes/kary-mix-color-theme.json"
       }
     ],
     "iconThemes": [
@@ -27,9 +25,5 @@
         "path": "./fileicons/vs_minimal-icon-theme.json"
       }
     ]
-  },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/transtone/vscode-theme-mix"
   }
 }

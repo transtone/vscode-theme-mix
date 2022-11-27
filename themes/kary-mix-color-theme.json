@@ -1,6 +1,6 @@
 {
   "$schema": "vscode://schemas/color-theme",
-  "name": "Light-mix",
+	"name": "kary-mix",
   "colors": {
     "activityBar.background": "#ececec",
     "activityBar.activeBackground": "#ffffff",
@@ -9,7 +9,7 @@
     "activityBar.activeBorder": "#ffffff",
     "activityBarBadge.background": "#007ACC",
     "editor.background": "#FFFFFF",
-    "editor.foreground": "#CCCCCC",
+    "editor.foreground": "#000000",
     "foreground": "#262626",
     "tab.activeBackground": "#ffffff",
     "tab.activeForeground": "#000000",

@@ -1,19 +1,16 @@
-# vscode theme mixed with default light theme and kary
+# kary-mix README
 
-## doc
+## Working with Markdown
 
-https://liiked.github.io/VS-Code-Extension-Doc-ZH/#/references/theme-color
+You can author your README using Visual Studio Code. Here are some useful editor keyboard shortcuts:
 
-## 方案说明
+* Split the editor (`Cmd+\` on macOS or `Ctrl+\` on Windows and Linux).
+* Toggle preview (`Shift+Cmd+V` on macOS or `Shift+Ctrl+V` on Windows and Linux).
+* Press `Ctrl+Space` (Windows, Linux, macOS) to see a list of Markdown snippets.
 
-* 此主题为亮色主题，只代码编辑区为暗色
-* 此主题由一个主题文件：`light_mix.josn` 和一个样式文件: `theme.css` 组成
-* 采用 kary-dark 配色(代码、弹窗、活动区及其他部分组件)
-* 主题文件中强制设定背景为白色，字体为黑色
-* 代码区的背景及字体，通过 `Custom CSS and JS Loader` 插件，覆盖vscode样式来设置
-* 迷你地图调整为暗色
-* 保持滚动条为亮色。如果强制设置为黑色，则代码修改色块及错误提示色块都会被覆盖
+## For more information
 
-### 为什么不直接使用 theme-color，而采取 Custom CSS and JS Loader 方案？
+* [Visual Studio Code's Markdown Support](http://code.visualstudio.com/docs/languages/markdown)
+* [Markdown Syntax Reference](https://help.github.com/articles/markdown-basics/)
 
-theme-color 的几个主颜色变量( `editor.background` , `editor.foreground` , `foreground` )，也同时被插件页及设置页使用，不能在整体为亮色的前提下，将代码编辑区设置为暗色。
+**Enjoy!**
