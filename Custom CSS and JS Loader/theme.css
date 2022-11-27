@@ -1,34 +1,49 @@
+/* 全局背景为白色，需要覆盖设置编辑区整体背景 */
 /* .editor-container .monaco-editor .scrollbar.vertical, */
-#workbench\.parts\.editor  .monaco-editor-background,
-#workbench\.parts\.editor  .monaco-editor .margin {
+#workbench\.parts\.editor .monaco-editor-background,
+#workbench\.parts\.editor .monaco-editor .margin {
   background-color: #1a1a1a;
 }
 
+/* 全局前景为黑色，需要覆盖设置默认代码颜色，浮动窗前景色  */
+.mtk1,
+.monaco-workbench .overflowingContentWidgets {
+ color: #CCCCCC;
+}
+
+/* 因为 "peekViewEditor.background" 设置值被上面的背景色所覆盖，所以要覆盖回来 */
 #workbench\.parts\.editor .zone-widget .monaco-editor-background,
 #workbench\.parts\.editor .zone-widget .monaco-editor .margin {
   background-color: #272822;
 }
 
+/* 搜索框背景 */
 .suggest-input-container .view-lines.monaco-mouse-cursor-text {
   background-color: #fff;
 }
 
+/* 暗色模式下，迷你图边框阴影会被样式隐藏，亮色模式下需要强制关闭 */
 .monaco-editor .minimap-shadow-visible {
   box-shadow: none;
 }
 
+/* 编辑区右侧滚动条 */
 /* .editor-container .monaco-editor .scrollbar.vertical.fade {
   opacity: 1;
 } */
 
+/* 面包屑下边界阴影 */
 .monaco-editor .scroll-decoration {
   box-shadow: #1a1a1a 0 6px 6px -6px inset;
 }
 
+/* 左侧面板(文件树,扩展列表等)滚动时上边界阴影 */
 .monaco-scrollable-element > .shadow.top{
   box-shadow: #1a1a1a33 0 6px 6px -6px inset;
 }
 
+/* 代码提示图标背景 */
+.monaco-editor .contentWidgets .codicon.codicon-light-bulb-autofix,
 .monaco-editor .contentWidgets .codicon.codicon-light-bulb {
   background-color: rgba(26, 26, 26, 0.7);
 }
