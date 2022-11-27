@@ -43,7 +43,7 @@
 }
 
 /* 代码提示图标背景 */
-.monaco-editor .contentWidgets .codicon.codicon-light-bulb-autofix,
+.monaco-editor .contentWidgets .codicon.codicon-lightbulb-autofix,
 .monaco-editor .contentWidgets .codicon.codicon-light-bulb {
   background-color: rgba(26, 26, 26, 0.7);
 }
