@@ -3236,6 +3236,13 @@
         "foreground": "#7DA76F",
       },
     },
+    {
+      "name": "dotenv",
+      "scope": "keyword.other.dotenv",
+      "settings": {
+        "foreground": "#FF000005",
+      },
+    },
   ],
   "semanticHighlighting": true,
   "semanticTokenColors": {
