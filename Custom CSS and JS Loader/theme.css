@@ -23,8 +23,14 @@
 }
 
 /* 搜索框 */
-#workbench\.parts\.editor .suggest-input-container .lines-content.monaco-editor-background {
-  background-color: inherit;
+#workbench\.parts\.editor .suggest-input-container .lines-content.monaco-editor-background,
+.settings-editor >.settings-body .settings-toc-container .monaco-list-row {
+  background-color: #fff;
+}
+
+#workbench\.parts\.editor .settings-body{
+  --vscode-editor-background: #fff;
+  --vscode-editor-foreground: #262626;
 }
 
 #workbench\.parts\.editor .suggest-input-container .lines-content.monaco-editor-background .mtk1 {
