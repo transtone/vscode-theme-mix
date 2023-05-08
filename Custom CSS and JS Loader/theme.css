@@ -1,5 +1,5 @@
+/* globle backgound is white, need cover the editor backound */
 /* 全局背景为白色，需要覆盖设置编辑区整体背景 */
-/* .editor-container .monaco-editor .scrollbar.vertical, */
 #workbench\.parts\.editor .monaco-editor-background,
 #workbench\.parts\.editor .monaco-editor .margin {
   background-color: #1a1a1a;
@@ -8,8 +8,10 @@
 .monaco-workbench #workbench\.parts\.editor {
   --vscode-editor-background: #1a1a1a;
   --vscode-editor-foreground: #cccccc;
+  --vscode-foreground: #cccccc;
 }
 
+/* globle forground is black，need cover the text color and floating widget color  */
 /* 全局前景为黑色，需要覆盖设置默认代码颜色，浮动窗前景色  */
 #workbench\.parts\.editor .monaco-editor .mtk1,
 .monaco-workbench .overflowingContentWidgets {
@@ -17,19 +19,21 @@
   color: #CCCCCC;
 }
 
+/* becaouse "peekViewEditor.background" settings coved by upper settings, recover it */
 /* 因为 "peekViewEditor.background" 设置值被上面的背景色所覆盖，所以要覆盖回来 */
 #workbench\.parts\.editor .zone-widget .monaco-editor-background,
 #workbench\.parts\.editor .zone-widget .monaco-editor .margin {
   background-color: #392620;
 }
 
+/* seachInput */
 /* 搜索框 */
 #workbench\.parts\.editor .suggest-input-container .lines-content.monaco-editor-background,
-.settings-editor >.settings-body .settings-toc-container .monaco-list-row {
+.settings-editor>.settings-body .settings-toc-container .monaco-list-row {
   background-color: #fff;
 }
 
-#workbench\.parts\.editor .settings-body{
+#workbench\.parts\.editor .settings-body {
   --vscode-editor-background: #fff;
   --vscode-editor-foreground: #262626;
 }
@@ -38,28 +42,32 @@
   color: #000000;
 }
 
+/* overlay message */
 /* 消息弹窗 */
 .monaco-editor .monaco-editor-overlaymessage .message {
   --vscode-inputValidation-infoForeground: #262626;
-	color: var(--vscode-inputValidation-infoForeground);
+  color: var(--vscode-inputValidation-infoForeground);
 }
 
-
+/* minimap's shadow mast disable in light theme */
 /* 暗色模式下，迷你图边框阴影会被样式隐藏，亮色模式下需要强制关闭 */
 .monaco-editor .minimap-shadow-visible {
   box-shadow: none;
 }
 
+/* breadcrumb shadow */
 /* 面包屑下边界阴影 */
 .monaco-editor .scroll-decoration {
   box-shadow: #1a1a1a 0 6px 6px -6px inset;
 }
 
+/*  panel(file explorer, extension etc...) scroll shadow */
 /* 左侧面板(文件树,扩展列表等)滚动时上边界阴影 */
-.monaco-scrollable-element > .shadow.top{
+.monaco-scrollable-element>.shadow.top {
   box-shadow: #1a1a1a33 0 6px 6px -6px inset;
 }
 
+/* code suggest icon background */
 /* 代码提示图标背景 */
 .monaco-editor .lightBulbWidget:after,
 .monaco-editor .contentWidgets .codicon.codicon-lightbulb-autofix,

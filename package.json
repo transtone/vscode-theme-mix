@@ -3,7 +3,7 @@
   "displayName": "kary mix",
   "description": "The default Visual Studio light themes mix with kary-dark",
   "publisher": "wildgrid",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "engines": {
     "vscode": "^1.73.0"
   },
