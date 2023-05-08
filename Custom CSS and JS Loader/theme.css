@@ -13,6 +13,7 @@
 /* 全局前景为黑色，需要覆盖设置默认代码颜色，浮动窗前景色  */
 #workbench\.parts\.editor .monaco-editor .mtk1,
 .monaco-workbench .overflowingContentWidgets {
+  --vscode-foreground: #cccccc;
   color: #CCCCCC;
 }
 
@@ -33,7 +34,7 @@
   --vscode-editor-foreground: #262626;
 }
 
-#workbench\.parts\.editor .suggest-input-container .lines-content.monaco-editor-background .mtk1 {
+#workbench\.parts\.editor .suggest-input-container .lines-content.monaco-editor-background .mtk1:not(.ghost-text-decoration) {
   color: #000000;
 }
 
@@ -48,11 +49,6 @@
 .monaco-editor .minimap-shadow-visible {
   box-shadow: none;
 }
-
-/* 编辑区右侧滚动条 */
-/* .editor-container .monaco-editor .scrollbar.vertical.fade {
-  opacity: 1;
-} */
 
 /* 面包屑下边界阴影 */
 .monaco-editor .scroll-decoration {

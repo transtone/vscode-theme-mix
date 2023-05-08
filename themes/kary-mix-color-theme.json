@@ -40,6 +40,7 @@
     "editorGutter.addedBackground": "#7DA76F",
     "editorGutter.deletedBackground": "#D38569",
     "editorGutter.modifiedBackground": "#819DC2",
+    "editorGhostText.foreground": "#707070",
     "editorHoverWidget.background": "#392620",
     "editorHoverWidget.border": "#D38569",
     "editorHoverWidget.foreground": "#D38569",
